@@ -1,0 +1,28 @@
+exp_name: GS_eval
+lr: 0.0005
+wdecay: 1e-5
+target_epoch: 100
+num_steps: 1000000
+cs: [0, 480, 64, 576]
+
+dataset:
+    base_folder: '/home/lsf_storage/dataset/EV3DS/'
+    train_batch_size: 1
+    val_batch_size: 1
+    ratio: 0.75
+    
+model:
+    max_depth_plane: 64
+    max_depth_value: 0.8
+    num_bins: 5
+
+record:
+  loss_freq: 50
+  eval_freq: 5000
+  save_freq: 10000
+
+restore_ckpt: None
+depth_warmup_ckpt: "./pretrain_ckpt/depth_warmup.pth"
+intensity_warmup_ckpt: "./pretrain_ckpt/intensity_warmup.pth"
+pretrain_ckpt: "./pretrain_ckpt/pretrain_evggs.pth"
+
