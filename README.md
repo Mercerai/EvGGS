@@ -11,7 +11,7 @@ Fig  1. The overview of EvGGS.
 
 - Ev3D-S
 
-    a large-scale event dataset with varying textures and materials and accompanied by well-calibrated frame, depth, and silhouette groundtruth.
+    a large-scale synthetic Event-based dataset with varying textures and materials and accompanied by well-calibrated frame, depth, and silhouette groundtruth.
 
     Download the dataset from OneDrive...
 
