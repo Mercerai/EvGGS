@@ -2,6 +2,11 @@
 Coda and Dataset of  EvGGS: A Collaborative Learning Framework for Event-based Generalizable Gaussian Splatting.
 Jiaxu Wang, Junhao He, Ziyi Zhang, Mingyuan Sun, Jingkai Sun, Renjing Xu
 
+<p align="center">
+<img src="./Figures/network.png" width="1000"><br>
+Fig  1. The overview of EvGGS.
+</p>
+
 # Dataset
 
 - Ev3D-S
@@ -15,9 +20,9 @@ Jiaxu Wang, Junhao He, Ziyi Zhang, Mingyuan Sun, Jingkai Sun, Renjing Xu
 
     A large Event-based 3D dataset captured by a real event camera of EvGGS
 
-    Download the datasets from [Baidu Disk](https://pan.baidu.com/s/1EuR-l_b_g-j_Du6dOxtZEg?pwd=3ilt ), code:3ilt
+    Download the dataset from [Baidu Disk](https://pan.baidu.com/s/1EuR-l_b_g-j_Du6dOxtZEg?pwd=3ilt ), code:3ilt
 
-    Download the datasets from [OneDrive](https://hkustgz-my.sharepoint.com/:u:/g/personal/junhaohe_hkust-gz_edu_cn/EY__SmcUSbdFs13sb2h8svYBXYOCDd0OVnSWV-WLfvFLmA?e=GkVjhd)
+    Download the dataset from [OneDrive](https://hkustgz-my.sharepoint.com/:u:/g/personal/junhaohe_hkust-gz_edu_cn/EY__SmcUSbdFs13sb2h8svYBXYOCDd0OVnSWV-WLfvFLmA?e=GkVjhd)
 
 - Custom Dataset Instructions
     You can construct your custom datasets by the following steps:
