@@ -1,11 +1,27 @@
-# EvGGS
-Coda and Dataset of  EvGGS: A Collaborative Learning Framework for Event-based Generalizable Gaussian Splatting.
-Jiaxu Wang, Junhao He, Ziyi Zhang, Mingyuan Sun, Jingkai Sun, Renjing Xu
+# EvGGS: A Collaborative Learning Framework for Event-based Generalizable Gaussian Splatting
+[A Collaborative Learning Framework for Event-based Generalizable Gaussian Splatting](https://arxiv.org/abs/2405.14959v1) 
+
+Jiaxu Wang, Junhao He, Ziyi Zhang, Mingyuan Sun, Jingkai Sun, Renjing Xu*
 
 <p align="center">
 <img src="./Figures/network.png" width="1000"><br>
 Fig  1. The overview of EvGGS.
 </p>
+
+# Create environment
+```
+conda env create --file environment.yml
+conda activate evggs
+```
+
+# Download models
+Download the pretrained models and be expected at ```event-flow/mlruns/```
+
+# Training and Testing
+```
+python <path-to-your-code>/ddp_train_nerf.py --config <path-to-your-code>/configs/*.txt
+python <path-to-your-code>/ddp_test_nerf.py --config <path-to-your-code>/configs/*.txt
+```
 
 # Dataset
 
@@ -38,3 +54,20 @@ Fig  1. The overview of EvGGS.
         - Intrinsics: Camera intrinsics
 
 Please contact us if you need to construct your custom event datasets.
+
+# Citation
+
+please cite our work if you use this dataset.
+
+```
+@misc{wang2024evggscollaborativelearningframework,
+      title={EvGGS: A Collaborative Learning Framework for Event-based Generalizable Gaussian Splatting}, 
+      author={Jiaxu Wang and Junhao He and Ziyi Zhang and Mingyuan Sun and Jingkai Sun and Renjing Xu},
+      year={2024},
+      eprint={2405.14959},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2405.14959}, 
+}
+}
+```
