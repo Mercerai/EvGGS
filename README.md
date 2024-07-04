@@ -23,13 +23,6 @@ cd ..
 # Download models
 Download the pretrained models and be expected at ```\pretrain_ckpt```
 
-
-# Training and evaluation
-```
-python <path-to-your-code>/train_gs.py
-python <path-to-your-code>/eval_gs.py
-```
-
 # Running on the synthetic and realistic datasets
 
 ## Download dataset
