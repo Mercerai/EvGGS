@@ -32,16 +32,18 @@ python <path-to-your-code>/eval_gs.py
 
 # Running on the synthetic and realistic datasets
 
+## Download dataset
+
 - Ev3D-S
 
-    a large-scale synthetic Event-based dataset with varying textures and materials and accompanied by well-calibrated frames, depth, and groundtruths. 
+    A large-scale synthetic Event-based dataset with varying textures and materials accompanied by well-calibrated frames, depth, and groundtruths. 
 
     You can download the dataset from OneDrive and unzip it. A 50 GB of storage space is necessary for the training and evaluation.
 
 
 - EV3D-R
 
-    A large Event-based 3D dataset containing various objects and captured by a real event camera DVXplore
+    A large-scale realistic Event-based 3D dataset containing various objects captured by a real event camera DVXplore.
 
     You can download the dataset from [OneDrive](https://hkustgz-my.sharepoint.com/:u:/g/personal/junhaohe_hkust-gz_edu_cn/EY__SmcUSbdFs13sb2h8svYBXYOCDd0OVnSWV-WLfvFLmA?e=GkVjhd) and [Baidu Disk](https://pan.baidu.com/s/1EuR-l_b_g-j_Du6dOxtZEg?pwd=3ilt ), code:3ilt.
   
