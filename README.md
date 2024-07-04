@@ -15,7 +15,7 @@ conda activate evggs
 ```
 
 # Download models
-Download the pretrained models and be expected at ```event-flow/mlruns/```
+Download the pretrained models and be expected at ```\pretrain-ckpt```
 
 # Training and Testing
 ```
