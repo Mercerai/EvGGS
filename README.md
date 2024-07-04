@@ -72,5 +72,4 @@ please cite our work if you use this dataset.
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2405.14959}, 
 }
-}
 ```
