@@ -5,7 +5,7 @@ Jiaxu Wang, Junhao He, Ziyi Zhang, Mingyuan Sun, Jingkai Sun, Renjing Xu*
 
 <p align="center">
 <img src="./Figures/network.png" width="1000"><br>
-Fig  1. The overview of EvGGS.
+Fig  1. The main pipeline overview of the proposed EvGGS framework.
 </p>
 
 # Create environment
@@ -21,9 +21,9 @@ pip install -e submodules/diff-gaussian-rasterization
 cd ..
 ```
 # Download models
-Download the pretrained models and be expected at ```\pretrain_ckpt```
+Download the pretrained models from [OneDrive](https://hkustgz-my.sharepoint.com/:u:/g/personal/jwang457_connect_hkust-gz_edu_cn/ESAMKY3oHDRBr2-zeNb3L8IBKnFGiJCAgyRv3HBs6esFaQ?e=O7bili) that are placed at ```\pretrain_ckpt```. This directory includes two warmup ckpts and a pretrained ckpts on the synthetic dataset.
 
-# Running on the synthetic and realistic datasets
+# Running the code
 
 ## Download dataset
 
@@ -31,7 +31,7 @@ Download the pretrained models and be expected at ```\pretrain_ckpt```
 
     A large-scale synthetic Event-based dataset with varying textures and materials accompanied by well-calibrated frames, depth, and groundtruths. 
 
-    You can download the dataset from OneDrive and unzip it. A 50 GB of storage space is necessary for the training and evaluation.
+    You can download the dataset from [OneDrive](https://hkustgz-my.sharepoint.com/:u:/g/personal/jwang457_connect_hkust-gz_edu_cn/ESAMKY3oHDRBr2-zeNb3L8IBKnFGiJCAgyRv3HBs6esFaQ?e=O7bili) and unzip it. A 50 GB of storage space is necessary.
 
 
 - EV3D-R
@@ -43,14 +43,17 @@ Download the pretrained models and be expected at ```\pretrain_ckpt```
 ## Training
 
 ```
-python <path-to-your-code>/train_gs.py
+python train_gs.py
 ```
 
 ## Evaluation
 
 ```
-python <path-to-your-code>/eval_gs.py
+python eval_gs.py
 ```
+
+In ```configs\Ev3D_pretrain```, several primary settings are defined such as experimental name, please check. 
+
 # Citation
 
 please cite our work if you use this dataset.
@@ -66,3 +69,10 @@ please cite our work if you use this dataset.
       url={https://arxiv.org/abs/2405.14959}, 
 }
 ```
+
+# Reference
+
+EventNeRF: [https://github.com/r00tman/EventNeRF?tab=readme-ov-file](https://github.com/r00tman/EventNeRF?tab=readme-ov-file).
+3D Gaussian Splatting: [https://github.com/graphdeco-inria/gaussian-splatting](https://github.com/graphdeco-inria/gaussian-splatting).
+GPS-GS: [https://github.com/aipixel/GPS-Gaussian](https://github.com/aipixel/GPS-Gaussian)
+PAEvD3d: [https://github.com/Mercerai/PAEv3d](https://github.com/Mercerai/PAEv3d)
