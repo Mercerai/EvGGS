@@ -1,4 +1,4 @@
-exp_name: GS_eval
+exp_name: experimental_name
 lr: 0.0005
 wdecay: 1e-5
 target_epoch: 100
@@ -6,7 +6,7 @@ num_steps: 1000000
 cs: [0, 480, 64, 576]
 
 dataset:
-    base_folder: '/home/lsf_storage/dataset/EV3DS/'
+    base_folder: <path to your own dataset>
     train_batch_size: 1
     val_batch_size: 1
     ratio: 0.75
