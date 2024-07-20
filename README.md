@@ -38,7 +38,7 @@ Download the pretrained models from [OneDrive](https://hkustgz-my.sharepoint.com
 
     A large-scale realistic Event-based 3D dataset containing various objects captured by a real event camera DVXplore.
 
-    You can download the dataset from [OneDrive](https://hkustgz-my.sharepoint.com/:u:/g/personal/junhaohe_hkust-gz_edu_cn/EY__SmcUSbdFs13sb2h8svYBXYOCDd0OVnSWV-WLfvFLmA?e=GkVjhd) and [Baidu Disk](https://pan.baidu.com/s/1EuR-l_b_g-j_Du6dOxtZEg?pwd=3ilt ), code:3ilt.
+    Due to some licensing reasons, we currently need your private application to use this dataset, but this will be addressed soon.
   
 ## Training
 
