@@ -38,7 +38,7 @@ Download the pretrained models from [OneDrive](https://hkustgz-my.sharepoint.com
 
     A large-scale realistic Event-based 3D dataset containing various objects captured by a real event camera DVXplore.
 
-    Due to some licensing reasons, we currently need your private application to use this dataset, but this will be addressed soon.
+    Due to some licensing reasons, we currently need your private application to use this dataset.
   
 ## Training
 
